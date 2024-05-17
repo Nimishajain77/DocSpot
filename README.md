@@ -4,7 +4,12 @@ Develop a platform for students to upload notes in various formats allowing for 
 Additionally, peers can engage in discussions by adding comments to the notes, suggesting changes, or providing feedback.
 Students can easily search for notes according to specific topics thanks to our system's capability to extract key topics from uploaded documents. By analyzing the content, our platform identifies relevant keywords and enables users to search for both keywords and documents effortlessly. Additionally, our platform suggests relevant notes and reference books related to the searched topic, further aiding students in their studies.
 
+SOLUTION ARCHITECTURE:
+
 ![alt text](image.png)
+
+Fig 01: Architecture of the Proposed Document Repository and Global Search Platform
+
 
 The front end of the model is built using the React Next.JS framework and styled with the Tailwind CSS library. The website allows students to upload and view their notes. Peers can access other students' notes and add comments on them. The study materials are uploaded by the user in PDF format and stored on the MongoDB database. The files
 undergo OCR to extract words and AI summarization tools are applied to get a summary of the notes for future reference. The uploaded notes can also be translated into multiple languages using the Google Translate API.
