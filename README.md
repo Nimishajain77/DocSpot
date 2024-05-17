@@ -8,7 +8,7 @@ SOLUTION ARCHITECTURE:
 
 ![alt text](image.png)
 
-                                  Fig 01: Architecture of the Proposed Document Repository and Global Search Platform
+                          Fig 01: Architecture of the Proposed Document Repository and Global Search Platform
 
 
 The front end of the model is built using the React Next.JS framework and styled with the Tailwind CSS library. The website allows students to upload and view their notes. Peers can access other students' notes and add comments on them. The study materials are uploaded by the user in PDF format and stored on the MongoDB database. The files
